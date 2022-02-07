@@ -1,0 +1,80 @@
+Component kya hota h ...or kyon hota h ???
+
+
+==================================================
+
+
+import React from "react";
+
+class App extends React.Component{
+render(){
+  let todos = [{text:"ghous"},{text:"basit"}];
+  return(
+    <div>
+    <ul>
+<li>{todos[0].text}</li>
+<li>{todos[1].text}</li>
+
+
+
+      {/* {todos.map((item,index)=>{
+      return <li key = {index}>{item.text}</li>                =====> Y  map wala topic theek sy smjh nhi aya bs ...
+      })} */}
+    </ul>
+    </div>
+  )
+}
+
+
+
+======================================================================================================================================================
+
+
+
+Acha apky component ka jo bhi name hoga ...first letter hmesha capital hoga 
+
+(1) => Header   (Correct Method)
+(2) => header  (worng method)
+
+
+
+
+====================================================================================================================
+
+
+class ==> className                  ///ab es trha mention kryn gy class ko hmesha 
+
+
+
+
+=================================================================================================
+
+"attribute" ko react m "prop" kehty h....
+
+INLINE CSS METHOD :-
+
+(*) => style = "color: red"    ==> wrong method
+(*) =><h1 style={{backgroundColor:'red'}}>Main Component</h1> 
+
+
+
+
+
+
+=================================================================================================
+
+(*) => agr h1 wagera k "<></>" y option na araha ho ...to hm App.js ko App.jsx m change krdyn gy ...sth sth index.js m ja kr import waly portion sy bhi ... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
